@@ -39,7 +39,7 @@ body {
 }
 
 /* ligne */
-.line {
+.line1 {
   width: 66vmax;
   height: 2px;
   transform-origin: 0 0;
@@ -51,9 +51,126 @@ body {
     rgba(255, 230, 160, 1),
     rgba(255, 230, 160, 0)
   );
-
-
   position: absolute;
   top: 50%;
   left: 50%;
 }
+
+.line2 {
+    width: 66vmax;
+    height: 2px;
+    transform-origin: 0 0;
+    transform: rotate(35deg);
+    
+    background: linear-gradient(
+      to right,
+      rgba(255, 230, 160, 0),
+      rgba(255, 230, 160, 1),
+      rgba(255, 230, 160, 0)
+    );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  .line3 {
+    width: 66vmax;
+    height: 2px;
+    transform-origin: 0 0;
+    transform: rotate(35deg);
+    
+    background: linear-gradient(
+      to right,
+      rgba(255, 230, 160, 0),
+      rgba(255, 230, 160, 1),
+      rgba(255, 230, 160, 0)
+    );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  .line4 {
+    width: 66vmax;
+    height: 2px;
+    transform-origin: 0 0;
+    transform: rotate(35deg);
+    
+    background: linear-gradient(
+      to right,
+      rgba(255, 230, 160, 0),
+      rgba(255, 230, 160, 1),
+      rgba(255, 230, 160, 0)
+    );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  .line5 {
+    width: 66vmax;
+    height: 2px;
+    transform-origin: 0 0;
+    transform: rotate(35deg);
+    
+    background: linear-gradient(
+      to right,
+      rgba(255, 230, 160, 0),
+      rgba(255, 230, 160, 1),
+      rgba(255, 230, 160, 0)
+    );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  .line6 {
+    width: 66vmax;
+    height: 2px;
+    transform-origin: 0 0;
+    transform: rotate(35deg);
+    
+    background: linear-gradient(
+      to right,
+      rgba(255, 230, 160, 0),
+      rgba(255, 230, 160, 1),
+      rgba(255, 230, 160, 0)
+    );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  .line7 {
+    width: 66vmax;
+    height: 2px;
+    transform-origin: 0 0;
+    transform: rotate(35deg);
+    
+    background: linear-gradient(
+      to right,
+      rgba(255, 230, 160, 0),
+      rgba(255, 230, 160, 1),
+      rgba(255, 230, 160, 0)
+    );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  .line8 {
+    width: 66vmax;
+    height: 2px;
+    transform-origin: 0 0;
+    transform: rotate(35deg);
+    
+    background: linear-gradient(
+      to right,
+      rgba(255, 230, 160, 0),
+      rgba(255, 230, 160, 1),
+      rgba(255, 230, 160, 0)
+    );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
