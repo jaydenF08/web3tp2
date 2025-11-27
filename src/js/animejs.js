@@ -1,13 +1,73 @@
-import { animate, utils } from 'animejs';
+import { animate, utils } from "animejs";
 
-const min = utils.random(0.1, 0.4);
-const max = utils.random(0.7, 1);
-
+utils.set(".line1", { opacity: 0 });
 animate(".line1", {
-  opacity: [min, max],
-  duration: utils.random(1000, 2000),
-  direction: "alternate",
-  easing: "easeInOutSine",
-  loop: true
+  opacity: 1,
+  duration: 3000,
+  alternate: true,
+  ease: "linear",
+  loop: true,
 });
 
+utils.set(".line2", { opacity: 0 });
+animate(".line2", {
+  opacity: 1,
+  duration: 3000,
+  alternate: true,
+  ease: "linear",
+  loop: true,
+});
+
+utils.set(".line3", { opacity: 0 });
+animate(".line3", {
+  opacity: 1,
+  duration: 3000,
+  alternate: true,
+  ease: "linear",
+  loop: true,
+});
+
+utils.set(".line4", { opacity: 0 });
+animate(".line4", {
+  opacity: 1,
+  duration: 3000,
+  alternate: true,
+  ease: "linear",
+  loop: true,
+});
+
+utils.set(".line5", { opacity: 0 });
+animate(".line5", {
+  opacity: 1,
+  duration: 3000,
+  alternate: true,
+  ease: "linear",
+  loop: true,
+});
+
+utils.set(".line6", { opacity: 0 });
+animate(".line6", {
+  opacity: 1,
+  duration: 3000,
+  alternate: true,
+  ease: "linear",
+  loop: true,
+});
+
+utils.set(".line7", { opacity: 0 });
+animate(".line7", {
+  opacity: 1,
+  duration: 3000,
+  alternate: true,
+  ease: "linear",
+  loop: true,
+});
+
+utils.set(".line8", { opacity: 0 });
+animate(".line8", {
+  opacity: 1,
+  duration: 3000,
+  alternate: true,
+  ease: "linear",
+  loop: true,
+});
