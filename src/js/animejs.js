@@ -71,3 +71,4 @@ animate(".line8", {
   ease: "linear",
   loop: true,
 });
+
