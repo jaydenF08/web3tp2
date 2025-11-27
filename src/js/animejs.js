@@ -72,3 +72,12 @@ animate(".line8", {
   loop: true,
 });
 
+utils.set(".img1", { opacity: 0.1 });
+animate(".img1", {
+  opacity: 0.2,
+  duration: 8000,
+  alternate: true,
+  ease: "linear",
+  loop: true,
+});
+
