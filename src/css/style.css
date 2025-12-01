@@ -16,8 +16,10 @@ body {
 }
 
 
+
 .img1 {
   background-image: url("../../assets/img/symbol.png");
+  
 
 }
 
@@ -73,6 +75,11 @@ body {
 
 
 /* ligne */
+
+.lignes{
+  display: grid;
+}
+
 .line1 {
   width: 66vmax;
   height: 2px;

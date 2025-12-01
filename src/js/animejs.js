@@ -1,4 +1,4 @@
-import { animate, utils } from "animejs";
+import { animate, utils, waapi } from "animejs";
 
 utils.set(".line1", { opacity: 0 });
 animate(".line1", {
@@ -74,8 +74,8 @@ animate(".line8", {
 
 utils.set(".img1", { opacity: 0.1 });
 animate(".img1", {
-  opacity: 0.2,
-  duration: 8000,
+  opacity: 0.4,
+  duration: 5000,
   alternate: true,
   ease: "linear",
   loop: true,
