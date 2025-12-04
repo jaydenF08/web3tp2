@@ -143,12 +143,31 @@ body {
   /* passe derrière tes glyphes */
 }
 
-.txtg {
+.oro {
   width: 33dvw;
+  top: 550px;
+  left: 330px;
   position: relative;
   display: grid;
+  grid-area: a;
   color: #e8d8a0;
+  font-size: 12px;
 }
+
+.oro2 {
+  width: 33dvw;
+  top: 550px;
+  left: 330px;
+  position: relative;
+  display: grid;
+  grid-area: a;
+  color: #e8d8a0;
+  font-size: 12px;
+
+}
+
+
+
 
 
 
