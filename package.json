@@ -15,5 +15,13 @@
     "bootstrap-icons": "^1.13.1",
     "chart.js": "^4.5.1"
   },
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaydenF08/web3tp2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaydenF08/web3tp2/issues"
+  },
+  "homepage": "https://github.com/jaydenF08/web3tp2#readme"
 }
