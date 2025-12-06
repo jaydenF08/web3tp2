@@ -89,6 +89,29 @@ animate(svg.createDrawable('.lineee'), {
   loop: true
 });
 
+animate(svg.createDrawable('.lineee2'), {
+  draw: ['0 0', '0 1', '1 1'],
+  ease: 'inOutQuad',
+  duration: 2000,
+  delay: stagger(100),
+  loop: true
+});
+
+animate(svg.createDrawable('.lineee3'), {
+  draw: ['0 0', '0 1', '1 1'],
+  ease: 'inOutQuad',
+  duration: 3000,
+  delay: stagger(100),
+  loop: true
+});
+
+animate(svg.createDrawable('.lineee4'), {
+  draw: ['0 0', '0 1', '1 1'],
+  ease: 'inOutQuad',
+  duration: 3000,
+  delay: stagger(100),
+  loop: true
+});
 
 
 
