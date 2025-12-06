@@ -179,28 +179,28 @@ body {
 }
 
 
-.circuit {
+
+
+
+.circuitSVG .lineee {
+ stroke: #e8d8a0;
+ stroke-width: 0.3;
+ filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
+ animation: glow 1.5s infinite alternate, flow 3s linear infinite;
+}
+@keyframes flow {
+ 0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+ 50% { filter: drop-shadow(1px 0 1px #e8d8a0) drop-shadow(1px 0 3px #e8d8a0); }
+ 100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+}
+.circuitSVG {
  position: absolute;
- border: 1px solid #00ffea; /* couleur néon techno */
- box-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea;
- animation: glow 2s infinite alternate;
-}
-.circuit1 {
- top: 50%;
+ top: 10%;
  left: 10%;
- width: 80%;
- height: 1px;
+ transform: translate(-10%, -30%);
+ width: 800px;
+ height: 800px;
 }
-
-/* Animation d'effet pulsé */
-@keyframes glow {
- 0% { box-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea; }
- 100% { box-shadow: 0 0 15px #00ffea, 0 0 30px #00ffea; }
-}
-
-
-
-
 
 
 
