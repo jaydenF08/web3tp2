@@ -100,7 +100,7 @@ animate(svg.createDrawable('.lineee2'), {
 animate(svg.createDrawable('.lineee3'), {
   draw: ['0 0', '0 1', '1 1'],
   ease: 'inOutQuad',
-  duration: 3000,
+  duration: 4000,
   delay: stagger(100),
   loop: true
 });
@@ -108,10 +108,11 @@ animate(svg.createDrawable('.lineee3'), {
 animate(svg.createDrawable('.lineee4'), {
   draw: ['0 0', '0 1', '1 1'],
   ease: 'inOutQuad',
-  duration: 3000,
+  duration: 4000,
   delay: stagger(100),
   loop: true
 });
+
 
 
 

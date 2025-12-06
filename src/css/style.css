@@ -195,7 +195,7 @@ body {
 }
 .circuitSVG {
 
- transform: translate(-10%, -30%);
+
  width: auto;
  height: 120vh;
  background-size: cover;
@@ -223,7 +223,7 @@ body {
 
 .circuitSVG3 .lineee3 {
  stroke: #e8d8a0;
- rotate: 90deg;
+
  stroke-width: 0.3;
  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
@@ -236,7 +236,7 @@ body {
 
 .circuitSVG4 .lineee4 {
  stroke: #e8d8a0;
-
+ rotate: 90deg;
  stroke-width: 0.3;
  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
@@ -246,6 +246,8 @@ body {
  50% { filter: drop-shadow(1px 0 1px #e8d8a0) drop-shadow(1px 0 3px #e8d8a0); }
  100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
 }
+
+
 
 
 
