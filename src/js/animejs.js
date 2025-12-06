@@ -1,4 +1,4 @@
-import { animate, utils, waapi } from "animejs";
+import { animate, utils, waapi,svg,stagger } from "animejs";
 
 utils.set(".line1", { opacity: 0 });
 animate(".line1", {
@@ -80,4 +80,15 @@ animate(".img1", {
   ease: "linear",
   loop: true,
 });
+
+animate(svg.createDrawable('.lineee'), {
+  draw: ['0 0', '0 1', '1 1'],
+  ease: 'inOutQuad',
+  duration: 2000,
+  delay: stagger(100),
+  loop: true
+});
+
+
+
 
