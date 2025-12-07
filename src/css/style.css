@@ -232,18 +232,60 @@ body {
 .oro4 {
   position: fixed;   /* fixé au viewport */
   top: 1000px;
-  right: 250px;
+  right: 320px;
   display: grid;
   grid-area: d;
   color: #e8d8a0;
-  font-size: 40px;
+  font-size: 50px;
   transform: rotate(90deg); /* rotation sans déplacement */
   filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
   animation: glow 1.5s infinite alternate, flow 3s linear infinite;
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 10px;
 }
 
  
+#carte {
+  position: relative ;
+  left: 50px;
+  top: 900px;
+  opacity: 0.7;
+  background-size: 20px;
+  width: 30vw;      /* avant 50vw → maintenant plus petite */
+  height: 40vh;     /* avant 170vh → réduit et cohérent */
+  border-radius: 4rem;
+  grid-area: a;
+  display: grid;
+  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
+  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
 
+  
+ }
+ @keyframes flow {
+  0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+  50% { filter: drop-shadow(1px 0 1px #e8d8a0) drop-shadow(1px 0 3px #e8d8a0); }
+  100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+ }
+
+
+ .bi  {
+  position: relative ;
+  left: 2200px;
+  bottom: 600px;
+  width: 500px;
+  height: 200px;
+  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
+  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
+
+  
+ }
+ @keyframes flow {
+  0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+  50% { filter: drop-shadow(1px 0 1px #e8d8a0) drop-shadow(1px 0 3px #e8d8a0); }
+  100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+ }
 
 
 
@@ -468,35 +510,7 @@ body {
 
 
 
-/* SVG grid D */
-.opticeye .eye {
-  display: grid;
-  grid-area: d;
-  transform: scale(0.55);
-  transform-origin: center; /* centre l’élément pour éviter les décalages */
-  justify-content: start;
-  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
-  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
 
-  
- }
- @keyframes flow {
-  0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
-  50% { filter: drop-shadow(1px 0 1px #e8d8a0) drop-shadow(1px 0 3px #e8d8a0); }
-  100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
- }
- 
- .opticeye {
-  display: grid;
-  grid-area: d;
-  position: fixed;   /* fixé au viewport */
-  left: 1800px;
-  bottom: 490px; 
-  transform: scale(0.85);
-  justify-content: start;
-  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
-  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
-}
 
 .humanbody .bod {
   display: grid;

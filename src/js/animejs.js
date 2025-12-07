@@ -183,26 +183,34 @@ animate(svg.createDrawable('.lineee9'), {
 
 
 
-
-
-
-animate(svg.createDrawable('.eye'), {
+animate(svg.createDrawable('.bi'), {
   draw: ['0 0', '0 1', '1 1'],
   ease: 'inOutQuad',
-  duration: 4000,
+  duration: 5000,
   delay: stagger(100),
   loop: true,
-  loopDelay: 4000,
+  loopDelay: 2000,
 });
 
+
+
+// Animation du corps
 animate(svg.createDrawable('.bod'), {
   draw: ['0 0', '0 1', '1 1'],
   ease: 'inOutQuad',
   duration: 4000,
   delay: stagger(100),
   loop: true,
-  loopDelay: 4000,
+  loopDelay: 1000,
 });
+
+
+
+
+
+
+
+
 
 
 

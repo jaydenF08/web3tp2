@@ -45,7 +45,7 @@ animate(chars3, {
 animate(chars4, {
     x: ["100%", "0%"],
     duration: 500,
-    delay: stagger(350),
+    delay: stagger(250),
     loopDelay: 1000,
     loop: true
    });
