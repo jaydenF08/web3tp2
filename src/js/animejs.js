@@ -195,6 +195,15 @@ animate(svg.createDrawable('.eye'), {
   loopDelay: 4000,
 });
 
+animate(svg.createDrawable('.bod'), {
+  draw: ['0 0', '0 1', '1 1'],
+  ease: 'inOutQuad',
+  duration: 4000,
+  delay: stagger(100),
+  loop: true,
+  loopDelay: 4000,
+});
+
 
 
 

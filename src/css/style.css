@@ -486,7 +486,46 @@ body {
   100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
  }
  
+ .opticeye {
+  display: grid;
+  grid-area: d;
+  position: fixed;   /* fixé au viewport */
+  left: 1800px;
+  bottom: 490px; 
+  transform: scale(0.85);
+  justify-content: start;
+  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
+  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
+}
 
+.humanbody .bod {
+  display: grid;
+  grid-area: d;
+  transform: scale(0.55);
+  transform-origin: center; /* centre l’élément pour éviter les décalages */
+  justify-content: start;
+  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
+  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
+
+  
+ }
+ @keyframes flow {
+  0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+  50% { filter: drop-shadow(1px 0 1px #e8d8a0) drop-shadow(1px 0 3px #e8d8a0); }
+  100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+ }
+ 
+ .humanbody {
+  display: grid;
+  grid-area: d;
+  position: fixed;   /* fixé au viewport */
+  left: 1900px;
+  bottom: 290px; 
+  transform: scale(2);
+  justify-content: start;
+  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
+  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
+}
 
 
 
