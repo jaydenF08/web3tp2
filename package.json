@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vfx-js/core": "^0.8.0",
     "animejs": "^4.2.2",
     "boostrap": "^2.0.0",
     "bootstrap": "^5.3.8",

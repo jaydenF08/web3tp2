@@ -1,5 +1,8 @@
 import { animate, utils, waapi,svg,stagger } from "animejs";
 
+
+            
+
 utils.set(".line1", { opacity: 0 });
 animate(".line1", {
   opacity: 1,

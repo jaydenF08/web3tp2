@@ -86,8 +86,15 @@ body {
   grid-area: a;
   display: grid;
   place-items: center; /* Centre horizontalement + verticalement */
-
+ filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
+ animation: glow 1.5s infinite alternate, flow 3s linear infinite;
 }
+@keyframes flow {
+ 0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+ 50% { filter: drop-shadow(1px 0 1px #e8d8a0) drop-shadow(1px 0 3px #e8d8a0); }
+ 100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+}
+
 
 .glyphB {
   font-family: "Orokin";
@@ -99,8 +106,15 @@ body {
   display: grid;
   place-items: center; /* Centre horizontalement + verticalement */
   justify-content: end; /* si tu veux la lettre à droite */
-
+ filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
+ animation: glow 1.5s infinite alternate, flow 3s linear infinite;
 }
+@keyframes flow {
+ 0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+ 50% { filter: drop-shadow(1px 0 1px #e8d8a0) drop-shadow(1px 0 3px #e8d8a0); }
+ 100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+}
+
 
 
 .glyphC {
@@ -113,8 +127,15 @@ body {
   display: grid;
   place-items: center; /* Centre horizontalement + verticalement */
   justify-content: end;     /* droite */
-
+ filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
+ animation: glow 1.5s infinite alternate, flow 3s linear infinite;
 }
+@keyframes flow {
+ 0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+ 50% { filter: drop-shadow(1px 0 1px #e8d8a0) drop-shadow(1px 0 3px #e8d8a0); }
+ 100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+}
+
 
 
 
