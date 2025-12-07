@@ -70,7 +70,7 @@ body {
   width: 100vw;
   grid-template-areas:
     "a b c d";
-    grid-template-columns: 400px 930px 700px auto;
+    grid-template-columns: 922px 700px 400px auto;
  
  
 }
@@ -81,13 +81,16 @@ body {
   font-family: "Orokin";
   font-size: 150px;
   color: #c7b27b;
-  text-decoration: none;
+
   height: 100vh;
   grid-area: a;
   display: grid;
   place-items: center; /* Centre horizontalement + verticalement */
+  justify-content: end;
  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
+
+
 }
 @keyframes flow {
  0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
@@ -100,14 +103,17 @@ body {
   font-family: "Orokin";
   font-size: 150px;
   color: #c7b27b;
-  text-decoration: none;
+
   height: 100vh;
   grid-area: b;
   display: grid;
   place-items: center; /* Centre horizontalement + verticalement */
-  justify-content: end; /* si tu veux la lettre à droite */
+  justify-content: space-evenly; /* si tu veux la lettre à droite */
  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
+
+
+
 }
 @keyframes flow {
  0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
@@ -121,14 +127,15 @@ body {
   font-family: "Orokin";
   font-size: 150px;
   color: #c7b27b;
-  text-decoration: none;
+
   height: 100vh;
   grid-area: c;
   display: grid;
   place-items: center; /* Centre horizontalement + verticalement */
-  justify-content: end;     /* droite */
+  justify-content: start;     /* droite */
  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
+
 }
 @keyframes flow {
  0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
@@ -168,36 +175,60 @@ body {
 .oro {
   width: 33dvw;
   top: 550px;
-  left: 330px;
+  left: 620px;
   position: relative;
   display: grid;
   grid-area: a;
   color: #e8d8a0;
   font-size: 12px;
-}
+  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
+  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
+  
+ }
+ @keyframes flow {
+  0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+  50% { filter: drop-shadow(1px 0 1px #e8d8a0) drop-shadow(1px 0 3px #e8d8a0); }
+  100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+ }
 
 .oro2 {
   width:93dvw;
-  top: 1100px;
-  left: 30px;
+  top: 900px;
+  left: 60px;
   position: relative;
   display: grid;
   grid-area: a;
   color: #e8d8a0;
   font-size: 52px;
 
-}
+  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
+  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
+  
+ }
+ @keyframes flow {
+  0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+  50% { filter: drop-shadow(1px 0 1px #e8d8a0) drop-shadow(1px 0 3px #e8d8a0); }
+  100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+ }
 
 .oro3 {
   width:93dvw;
   top: 100px;
-  left: 200px;
+  left: 20px;
   position: relative;
   display: grid;
   grid-area: c;
   color: #e8d8a0;
   font-size: 30px;
-}
+  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
+  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
+  
+ }
+ @keyframes flow {
+  0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+  50% { filter: drop-shadow(1px 0 1px #e8d8a0) drop-shadow(1px 0 3px #e8d8a0); }
+  100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+ }
 .oro4 {
   position: fixed;   /* fixé au viewport */
   top: 1000px;
@@ -220,7 +251,7 @@ body {
 
 .circuitSVG .lineee {
  stroke: #e8d8a0;
- stroke-width: 0.3;
+ stroke-width: 0.2;
  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
 }
@@ -240,7 +271,7 @@ body {
 .circuitSVG2 .lineee2 {
  stroke: #e8d8a0;
  rotate: 90deg;
- stroke-width: 0.3;
+ stroke-width: 0.1;
  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
 }
@@ -272,7 +303,7 @@ body {
 .circuitSVG3 {
   position: fixed;   /* fixé au viewport */
   right: -30px;
-  bottom: 799px; 
+  bottom: 790px; 
   width: 300px;    /* adapte selon ton design */
   transform: rotate(90deg); 
 }
@@ -296,7 +327,7 @@ body {
   position: fixed;   /* fixé au viewport */
   transform: rotate(90deg);  /* rotation sur place */
   right: -30px;
-  bottom: 799px; 
+  bottom: 790px; 
   width: 300px;      /* adapte selon ton design */
 
 }
@@ -346,44 +377,94 @@ body {
   transform: rotate(180deg); 
  }
  
+ .circuitSVG7 .lineee7 {
+  stroke: #e8d8a0;
+ 
+  stroke-width: 0.3;
+  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
+  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
+  
+ }
+ @keyframes flow {
+  0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+  50% { filter: drop-shadow(1px 0 1px #e8d8a0) drop-shadow(1px 0 3px #e8d8a0); }
+  100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+ }
+ 
+ .circuitSVG7 {
+  position: fixed;   /* fixé au viewport */
+  left: -30px;
+  bottom: -280px; 
+  width: 300px;    /* adapte selon ton design */
+  transform: rotate(270deg); 
+ }
 
+ .circuitSVG8 .lineee8 {
+  stroke: #e8d8a0;
+ 
+  stroke-width: 0.3;
+  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
+  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
+  
+ }
+ @keyframes flow {
+  0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+  50% { filter: drop-shadow(1px 0 1px #e8d8a0) drop-shadow(1px 0 3px #e8d8a0); }
+  100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+ }
+ 
+ .circuitSVG8 {
+  position: fixed;   /* fixé au viewport */
+  left: -30px;
+  bottom: -280px; 
+  width: 300px;    /* adapte selon ton design */
+  transform: rotate(270deg); 
+ }
 
+ .circuitSVG9 .lineee9 {
+  stroke: #e8d8a0;
+ 
+  stroke-width: 0.3;
+  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
+  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
+  
+ }
+ @keyframes flow {
+  0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+  50% { filter: drop-shadow(1px 0 1px #e8d8a0) drop-shadow(1px 0 3px #e8d8a0); }
+  100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+ }
+ 
+ .circuitSVG9 {
+  position: fixed;   /* fixé au viewport */
+  left: -30px;
+  bottom: 790px; 
+  width: 300px;    /* adapte selon ton design */
 
+ }
 
+ 
+ .circuitSVG10 .lineee10 {
+  stroke: #e8d8a0;
+ 
+  stroke-width: 0.3;
+  filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
+  animation: glow 1.5s infinite alternate, flow 3s linear infinite;
+  
+ }
+ @keyframes flow {
+  0% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+  50% { filter: drop-shadow(1px 0 1px #e8d8a0) drop-shadow(1px 0 3px #e8d8a0); }
+  100% { filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0); }
+ }
+ 
+ .circuitSVG10 {
+  position: fixed;   /* fixé au viewport */
+  left: -30px;
+  bottom: 790px; 
+  width: 300px;    /* adapte selon ton design */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ }
 
 
 
@@ -391,10 +472,9 @@ body {
 .opticeye .eye {
   display: grid;
   grid-area: d;
-  transform: scale(0.75);
+  transform: scale(0.55);
   transform-origin: center; /* centre l’élément pour éviter les décalages */
-  justify-self: center;   /* centre horizontalement dans la zone d */
-  align-self: center;     /* centre verticalement dans la zone d */
+  justify-content: start;
   filter: drop-shadow(0 0 1px #e8d8a0) drop-shadow(0 0 3px #e8d8a0);
   animation: glow 1.5s infinite alternate, flow 3s linear infinite;
 

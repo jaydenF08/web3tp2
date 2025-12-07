@@ -22,7 +22,7 @@ animate(chars1, {
  x: ["100%", "0%"],
  duration: 10,
  delay: stagger(150),
- loopDelay: 4000,
+ loopDelay: 3500,
  loop: true
 });
 // Animation du deuxième texte
@@ -30,7 +30,7 @@ animate(chars2, {
  x: ["100%", "0%"],
  duration: 10,
  delay: stagger(150),
- loopDelay: 1000,
+ loopDelay: 2000,
  loop: true
 });
 
@@ -45,7 +45,7 @@ animate(chars3, {
 animate(chars4, {
     x: ["100%", "0%"],
     duration: 500,
-    delay: stagger(150),
+    delay: stagger(350),
     loopDelay: 1000,
     loop: true
    });
