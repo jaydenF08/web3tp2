@@ -100,7 +100,59 @@ animate(svg.createDrawable('.lineee2'), {
   loop: true
 });
 
-animate(svg.createDrawable('.lineee3'), {
+
+
+animate(svg.createDrawable('.lineee4'), {
+  draw: ['0 0', '0 1', '1 1'],
+  ease: 'inOutQuad',
+  duration: 4000,
+  delay: stagger(100),
+  loop: true
+});
+
+animate(svg.createDrawable('.lineee5'), {
+  draw: ['0 0', '0 1', '1 1'],
+  ease: 'inOutQuad',
+  duration: 4000,
+  delay: stagger(100),
+  loop: true
+});
+
+
+
+animate(svg.createDrawable('.lineee7'), {
+  draw: ['0 0', '0 1', '1 1'],
+  ease: 'inOutQuad',
+  duration: 4000,
+  delay: stagger(100),
+  loop: true
+});
+
+animate(svg.createDrawable('.lineee8'), {
+  draw: ['0 0', '0 1', '1 1'],
+  ease: 'inOutQuad',
+  duration: 4000,
+  delay: stagger(100),
+  loop: true
+});
+
+animate(svg.createDrawable('.lineee9'), {
+  draw: ['0 0', '0 1', '1 1'],
+  ease: 'inOutQuad',
+  duration: 4000,
+  delay: stagger(100),
+  loop: true
+});
+
+animate(svg.createDrawable('.lineee10'), {
+  draw: ['0 0', '0 1', '1 1'],
+  ease: 'inOutQuad',
+  duration: 4000,
+  delay: stagger(100),
+  loop: true
+});
+
+animate(svg.createDrawable('.lineee11'), {
   draw: ['0 0', '0 1', '1 1'],
   ease: 'inOutQuad',
   duration: 4000,

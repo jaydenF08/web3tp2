@@ -13,6 +13,10 @@ const { chars: chars2 } = splitText("p1", {
 const { chars: chars3 } = splitText("p2", {
  chars: { wrap: "clip" }
 });
+
+const { chars: chars4 } = splitText("p3", {
+    chars: { wrap: "clip" }
+   });
 // Animation du premier texte
 animate(chars1, {
  x: ["100%", "0%"],
@@ -37,6 +41,15 @@ animate(chars3, {
  loopDelay: 1000,
  loop: true
 });
+
+animate(chars4, {
+    x: ["100%", "0%"],
+    duration: 500,
+    delay: stagger(150),
+    loopDelay: 1000,
+    loop: true
+   });
+   
 
 
 
